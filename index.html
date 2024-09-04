@@ -29,7 +29,7 @@
                     sizes="1920w" 
                     srcset="img/header.webp 1920w" 
                      type=" image/webp">
-                    <source sizes="1920w" srcset="img/header.jpg 1920w, 
+                    <source sizes="1920w" srcset="img/header.png 1920w, 
                            
                      type=" image/jpeg">
                     <img loading="lazy" decoding="async" src="img/header.jpg" lazyalt="imagen" width="1000"
@@ -101,18 +101,28 @@
                 </div>
        </main>
 
-       <section class?="newsletter">
-            <div class="contenedor newsletter-contenedor">
-                <div class="newsletter-form">
+       <section class="newsletter">
+            <div class="contenedor contenido-newsletter">
+                <div class="texto-newsletter">
                     <h2>Recibe Actualizaciones</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint ducimus illo laborum itaque rem harum inventore?
                         Porro, voluptatum nesciunt pariatur nulla eum optio aut at, sit eaque esse excepturi.</p>
-                    <input type="text" class="input-newletter-form">
-                    <input type="submit" class="btn-input-newsletter-form">
+                    <form class="formulario">
+                        <div class="input">
+                            <input type="text" placeholder="Tu Email">
+                        </div>
+
+                        <input type="submit" value="Inscribirme">
+                    </form>
                 </div>
             </div>
        </section>
 
+       <footer class="footer">
+            <p>Todos los derechos reservados</p>
+       </footer>
+
+       <script src="js/imagenes.js"></script>
 </body>
 
 </html>
